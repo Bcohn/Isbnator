@@ -16,6 +16,7 @@ This, somewhat useless, project was inspired by the [Reddit Daily Programmer Cha
 ### Functions
 
 The two .R files in this repo contain the following functions:
+
 1. Clean_ISBN -- takes an unclean ISBN (maybe it has eaten pork?) and converts it into a format that is readable by the Check_ISBN function. If the ISBN contains too many/few digits, the funciton returns an informative error. Returns a Cleaned ISBN.
 
 2. Check_ISBN -- checks an ISBN for compliance with the ISBN generating algorithm (calls clean ISBN). Returns a cleaned ISBN or an error.
